@@ -1,5 +1,6 @@
 package com.sxgroup.springhelloword.conntroll;
 
+
 import com.sxgroup.springhelloword.bean.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -4,8 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 
-@SpringBootApplication(scanBasePackages = "com.sxgroup.springhelloword")
-@ServletComponentScan   //扫描Servlet的注解
+@SpringBootApplication //扫描Servlet的注解
 public class SpringHelloWordApplication {
 
     public static void main(String[] args) {
