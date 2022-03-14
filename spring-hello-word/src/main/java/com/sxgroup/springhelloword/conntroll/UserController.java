@@ -12,7 +12,7 @@ import java.util.List;
 @Controller
 public class UserController {
     /*** 用户列表展示 */
-    @RequestMapping("/list")
+    @RequestMapping("/list1")
     public String list(Model model){
         //模拟用户数据
         List<User> list = new ArrayList<User>();
