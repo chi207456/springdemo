@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxgroup.springclouddemo.mappers.UserMapper">
+
+    <select id="queryById" resultType="com.sxgroup.springclouddemo.data.User">
+       select * from spring_user where id=#{id}
+    </select>
+
+    <delete id="deleteById">
+        delete from spring_user where id=#{id}
+    </delete>
+
+    <select id="queryUsers" resultType="com.sxgroup.springclouddemo.data.User">
+        select * from spring_user
+    </select>
+
+</mapper>
