@@ -1,16 +1,14 @@
-package com.sxgroup.springclouddemo;
+package com.sxgroup.eurekaclient;
 
-import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class SpringCloudApp {
+public class EurekaclientApplication {
     public static void main(String[] args) {
-        SpringApplication app=new SpringApplication(SpringCloudApp.class);
-        app.setBannerMode(Banner.Mode.CONSOLE);
-        app.run(args);
+        SpringApplication.run(EurekaclientApplication.class, args);
     }
+
 }
